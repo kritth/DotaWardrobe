@@ -1,5 +1,5 @@
 # DotaWardrobe
-Repository for Dota Wardrobe add-on from Dota 2 workshop
+Repository for Dota Wardrobe add-on from Dota 2 workshop, link to the workshop: http://steamcommunity.com/sharedfiles/filedetails/?id=405508976
 
 Notes:
 
