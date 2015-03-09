@@ -12,6 +12,7 @@ function Precache( context )
 			PrecacheResource( "particle", "*.vpcf", context )
 			PrecacheResource( "particle_folder", "particles/folder", context )
 	]]
+	-- For all the models to show up dynamically, they have to be precached here
 	PrecacheResource( "model_folder", "models/items", context )
  	PrecacheResource( "model_folder", "models/heroes", context ) 
 	PrecacheResource( "model", "models/development/invisiblebox.vmdl", context )
@@ -36,6 +37,7 @@ function CAddonTemplateGameMode:InitGameMode()
 	mode:SetCameraDistanceOverride( 1150 )
 	mode:SetFixedRespawnTime( 5.0 )
 	
+	-- This line is very important, has to be included.
 	SendToServerConsole( "dota_combine_models 0" )
 	
 	-- Listen to Game Event
