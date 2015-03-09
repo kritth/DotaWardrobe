@@ -1,0 +1,182 @@
+// Dota Heroes File
+"DOTAAbilities"
+{
+	"Version"		"1"
+	
+	// =================================================================================================================
+	// General: Dummy's buff
+	// =================================================================================================================
+	"generic_dummy_buff"
+	{
+		// General
+		// -------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_datadriven"
+		"AbilityName"					"prop_buff"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		
+		// Data Driven
+		// -------------------------------------------------------------------------------------------------------------
+		"Modifiers"
+		{
+			"generic_portal_disable_debuff"
+			{
+				"Passive"				"1"
+				
+				"States"
+				{
+					"MODIFIER_STATE_INVULNERABLE"			"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_UNSELECTABLE"			"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_NO_TEAM_SELECT"			"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_NO_TEAM_MOVE_TO"		"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_COMMAND_RESTRICTED"		"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_NO_UNIT_COLLISION"		"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_FLYING"					"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_NO_HEALTH_BAR"			"MODIFIER_STATE_VALUE_ENABLED"
+				}
+			}
+		}
+	}
+	
+	// =================================================================================================================
+	// General: List of all animations
+	// =================================================================================================================
+	"animation_list"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"						"1"
+		"AbilityCooldown"				"0"
+		
+		// Data driven
+		//-------------------------------------------------------------------------------------------------------------
+		"Modifiers"
+		{
+			"modifier_animation_idle"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_IDLE"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_run"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_RUN"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_die"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_DIE"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_attack_1"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_ATTACK"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_attack_2"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_ATTACK2"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_ability_1"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_ability_2"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_ability_3"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_CAST_ABILITY_3"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_ability_4"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_channel_ability_1"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_CHANNEL_ABILITY_1"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_channel_ability_2"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_CHANNEL_ABILITY_2"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_channel_ability_3"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_CHANNEL_ABILITY_3"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_channel_ability_4"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_CHANNEL_ABILITY_4"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_flail"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_FLAIL"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_spawn"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_SPAWN"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_victory"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_VICTORY"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_defeat"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_DEFEAT"
+				"Duration"					"5.0"
+			}
+			"modifier_animation_disabled"
+			{
+				"IsHidden"					"1"
+				"IsPurgable"				"0"
+				"OverrideAnimation"			"ACT_DOTA_DISABLED"
+				"Duration"					"5.0"
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+"CustomEvents"
+{
+	"update_current_panel"
+	{
+		"player_id"			"short"
+		"models"			"string"			// "name,name,..."
+	}
+
+	"update_available_panel"
+	{
+		"player_id"			"short"
+		"hero_name"			"string"			// hero:GetName() and cut off the npc_dota_hero_ prefix
+	}
+	
+	"update_available_animation"
+	{
+		"player_id"			"short"
+		"animation_name"	"string"			// "name,name,..."
+	}
+	
+	"enable_cosmetics_panel"
+	{
+		"player_id"			"short"
+	}
+}
