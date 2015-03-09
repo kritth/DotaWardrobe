@@ -1,6 +1,8 @@
 # DotaWardrobe
 Repository for Dota Wardrobe add-on from Dota 2 workshop, link to the workshop: http://steamcommunity.com/sharedfiles/filedetails/?id=405508976
 
+This repository is a simple example for dynamic cosmetics swapping.
+
 Notes:
 
 1. This addon may take several minutes or longer to load due to massive amount of cosmetics to prepare before the game starts.
